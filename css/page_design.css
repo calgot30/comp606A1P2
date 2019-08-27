@@ -1,0 +1,61 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    width:100%;
+    padding: 50px;
+}
+
+#onePic{
+    padding:10px;
+    
+    
+}
+
+.photoGallery {
+    padding:10px;
+    
+}
+
+.border {
+    background-color: rgb(230, 246, 247);
+    align-content: center;
+    display: inline-block;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.borderSingle {
+    background-color: rgb(230, 246, 247);
+    align-content: center;
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.heading {
+    width:100%;
+    background-color: lavender;
+    
+}
+
+h3 {
+    padding:10px;
+}
+
+p {
+    padding: 10px;
+}
+
+.button {
+    padding: 15px 32px;
+    font-size: 20px;
+    border-radius:2px;
+    background-color: cornflowerblue;
+    color: white;
+}

@@ -2,26 +2,84 @@
 <html lang="en">
 <head>
     <title>This is the page showing my example of fancy box for A1P2. Enjoy</title>
+    
+    <!--Links to CSS Stylesheets-->
     <link rel="stylesheet" href="../css/page_design.css">
+    <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
     
 </head>
 
+<!--Displays the pictures that make up the fancybox explanation
+They are sorted in a couple of different examples, including a video 
+link as well-->
 <body>
+
+    
+    <div class="heading">
     <h1>Welcome to FancyBox, one of jQuerys' greatest tools for displaying content!</h1>
+    </div>  
+
+    <p>You can easily make your website stand out with 
+            this stylish and free jQuery based library!
+        </p>
 
 
-<p id="demo"></p>
+   <h3>One Picture</h3>
+   
+<div id ="onePic">
+        <div class="borderSingle">
+<!--You have to place the fancybox data inside an <a> block to make it work-->
+<a href="../pictures/heic1307a.jpg" data-fancybox data-caption="Caption for fancybox" data-width="2704" data-height="2826">
+<img src="../pictures/heic1307a.jpg" alt="space" style="width:300px;height:200px;">
+</a>
+</div>
+</div>
+
+<p>With a simple download or reference to 
+   jQuery and fancybox files, you too can have an 
+   outstanding website.
+</p>
+
+<h3>Gallery Style</h3>
+<div class="photoGallery">
+    <div class="border">
+<a href="../pictures/heic0514a.jpg" data-fancybox="gallery" data-caption="fancybox gallery">
+<img src="../pictures/heic0514a.jpg" alt="space"
+style="width:300px;height:200px;">
+</a>
 
 
-<img id="test_image" src="../pictures/Space.jpg"><p>the first test</p>
+&nbsp
 
 
+<a href="../pictures/opo0511a.jpg" data-fancybox="gallery" data-caption="fancybox gallery">
+    <img src="../pictures/opo0511a.jpg" alt="space"style="width:300px;height:200px;">
+    </a>
+</div>
+</div>
+
+<p>It turns all items inside a fancybox reference
+    into a click event, making it simple to implement.
+</p>
+
+
+<h3>Button Links</h3>
+<a href="https://www.youtube.com/watch?v=jsnUVV9rtjM" data-fancybox data-caption="pop-up">
+    <form>
+        <button class="button">click me!</button>
+    </form>
+</a>
+
+<p>There are many different ways to use fancybox:
+    video-links, picture galleries, form pop-ups.
+    The possibilities are endless!
+</p>
 
 
     <!--Links to my javascript file and my jQuery file-->
     <script type="text/javascript" src="../scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="../scripts/jquery.fancybox.min.js"></script>
     <script type="text/javascript" src="../scripts/script.js"></script>
-    
 </body>
 
 
